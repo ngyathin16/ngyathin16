@@ -3,7 +3,7 @@
 ![Header](https://github.com/ngyathin16/ngyathin16/blob/main/github%20readme%20banner%20ver%201.jpg?raw=true "Header")
 
 # 💫 About Me:
-I am currently working on machine learning and AI projects.<br>I am a UCI master of data science graduate and a UCLA applied maths alum.<br>
+I am a Machine Learning Engineer dedicated to transforming complex data into actionable insights. With expertise in Python, TensorFlow, and data modeling, I develop and deploy machine learning models that enhance decision-making processes. I am committed to continuous learning and aspire to contribute to innovative AI solutions that address real-world challenges.<br>
 
 
 ## 🌐 Socials:
