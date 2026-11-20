@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harold Ng — profile header source</title>
+    <style>
+      @font-face {
+        font-family: Newsreader;
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url("fonts/newsreader-latin-400-normal.woff2") format("woff2");
+      }
+      :root {
+        --paper: #f6f5f1;
+        --ink: #202724;
+        --accent: #24594f;
+        --rule: #d9ded6;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --paper: #172320;
+          --ink: #f6f5f1;
+          --accent: #e9ede5;
+          --rule: #e9ede5;
+        }
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      .header {
+        position: relative;
+        width: 1200px;
+        height: 280px;
+        padding: 68px 68px 0;
+        overflow: hidden;
+        color: var(--ink);
+        background: var(--paper);
+      }
+      h1 {
+        margin: 0;
+        font: 400 116px/1.1 Newsreader, Georgia, serif;
+        font-synthesis: none;
+        letter-spacing: -.055em;
+      }
+      h1 span { color: var(--accent); }
+      .rule {
+        position: absolute;
+        right: 68px;
+        bottom: 46px;
+        left: 68px;
+        height: 1px;
+        background: var(--rule);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Harold Ng<span>.</span></h1>
+      <div class="rule" aria-hidden="true"></div>
+    </div>
+  </body>
+</html>

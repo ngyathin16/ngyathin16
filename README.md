@@ -1,32 +1,49 @@
-<!-- More info, tips, and tricks for making GitHub Profile README can be found in my article at https://towardsdatascience.com/build-a-stunning-readme-for-your-github-profile-9b80434fe5d7 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.png">
+  <img src="assets/header-light.png" alt="" width="1200">
+</picture>
 
-![Header](https://github.com/ngyathin16/ngyathin16/blob/main/github%20readme%20banner%20ver%201.jpg?raw=true "Header")
+# Harold Ng
 
-# 💫 About Me:
-I am a Machine Learning Engineer dedicated to transforming complex data into actionable insights. With expertise in Python, TensorFlow, and data modeling, I develop and deploy machine learning models that enhance decision-making processes. I am committed to continuous learning and aspire to contribute to innovative AI solutions that address real-world challenges.<br>
+**AI Solutions Engineer · Hong Kong**
 
+I build AI tools and the software that makes their decisions inspectable. Currently working on AI and desktop software at Yau Lee.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/harold._.ng) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ngyathin16) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@haroldng2001) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@boimirage) 
+[Portfolio](https://haroldng.dev) · [Email me](mailto:haroldng2001@gmail.com) · [LinkedIn](https://www.linkedin.com/in/harold-ng-986a5b252/) · [Résumé](https://haroldng.dev/resume.pdf)
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ngyathin16&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ngyathin16&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ngyathin16&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+## Selected work
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
+### QueryProof
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+A local SQL review workbench that checks a metric against its definition and shows the rows behind a discrepancy. Model advice stays separate from executed evidence. Completed; runs locally.
 
+[Source](https://github.com/ngyathin16/queryproof) · [Case study](https://haroldng.dev/work/queryproof/)
 
-<!-- Resources -->
-<!-- Icons: https://simpleicons.org/ -->
-<!-- GitHub Stats: https://github.com/anuraghazra/github-readme-stats -->
-<!-- Emojis: https://emojipedia.org/emoji/ -->
-<!-- HTML Emojis: https://www.fileformat.info/index.htm -->
-<!-- Shields: https://shields.io/ -->
-<!-- Awesome GitHub Profile README: https://github.com/abhisheknaiidu/awesome-github-profile-readme -->
+### ReleaseGuard
 
+A local canary-release workbench that compares real HTTP traffic across cohorts and makes advance, hold, and stop decisions inspectable. Completed; runs against bundled local services.
+
+[Source](https://github.com/ngyathin16/releaseguard) · [Case study](https://haroldng.dev/work/releaseguard/)
+
+### Relay Desk
+
+A bilingual support workbench with source-linked drafts, human approval, and retryable mock CRM handoffs. A local working prototype with a source-excerpt baseline and optional live-model mode.
+
+[Source](https://github.com/ngyathin16/relay-desk) · [Case study](https://haroldng.dev/work/relay-desk/)
+
+### IFC-GPT v2
+
+A public prototype for building and inspecting IFC models through structured planning, generation, and validation. The case study records what was verified and which checks remain unresolved.
+
+[Source](https://github.com/ngyathin16/ifc-gpt2.0) · [Case study](https://haroldng.dev/work/ifc-gpt/)
+
+These are personal projects. QueryProof, ReleaseGuard, and Relay Desk were developed with AI assistance; the case studies describe my contribution.
+
+## A little context
+
+I studied applied mathematics at UCLA and data science at UC Irvine, and worked in analytics at CooperVision. Today, I work on AI and software for the built environment in Hong Kong.
+
+I care about making decisions visible, measuring what happens, and keeping people in control of the result.
+
+Have an engineering role or a project in mind? [I'd be glad to hear about it.](mailto:haroldng2001@gmail.com)
